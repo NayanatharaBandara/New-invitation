@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#f8f2e7" />
+  <title>Gimhan &amp; Oshadhi | Wedding Invitation</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600;700&family=Great+Vibes&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <button class="music-toggle" id="musicToggle" type="button" aria-label="Play or pause music">♪</button>
+
+  <section class="intro-screen" id="introScreen">
+    <div class="intro-backdrop"></div>
+    <div class="envelope-wrapper">
+      <div class="envelope-seal" id="envelopeSeal">
+        <div class="seal-inner">Open</div>
+      </div>
+      <div class="envelope" id="envelope" aria-label="Open wedding invitation">
+        <div class="envelope-flap"></div>
+        <div class="envelope-body"></div>
+      </div>
+      <button id="openBtn" class="open-invite-btn" type="button">Open Invitation</button>
+    </div>
+  </section>
+
+  <main class="invitation hidden" id="invitation">
+    <section class="hero glass-card reveal">
+      <p class="eyebrow">Together with their families</p>
+      <h1 class="couple-names">Gimhan <span>&amp;</span> Oshadhi</h1>
+
+      <div class="family-message">
+        <p>With the blessings of their families</p>
+        <p class="family-names">
+          <b>Mr. Lakshman (Late) &amp; Mrs. Manisha Peris</b><br>
+          together with<br>
+          <b>Mr. Granuille Jayasuriya &amp; Mrs. Dilanthi Jayasuriya</b>
+        </p>
+      </div>
+
+      
+
+      <div class="invitation-message">
+        <p class="invite-line"><strong>Joyfully invite you to share in the celebration of their marriage.</strong></p>
+        <p class="blessing-text">
+          <b>Two hearts, two journeys, and one beautiful promise.</b><br>
+          <b>With love in their hearts and dreams for tomorrow,</b><br>
+          <b>Gimhan and Oshadhi begin their forever.</b><br>
+          <b>Your presence will make their day even more special.</b>
+        </p>
+        <p class="invite-line closing-line"><strong>We would be honoured to celebrate this special day with you.</strong></p>
+      </div>
+
+      <div class="date-badge">Saturday, 30 January 2027</div>
+
+      <div class="event-details">
+        <article class="event-card">
+          <span class="event-time">3.00 PM</span>
+          <span class="event-label">Wedding Ceremony</span>
+          <span class="event-venue">St. Mary's Church<br>Dehiwala</span>
+        </article>
+        <article class="event-card">
+          <span class="event-time">6.30 PM onwards</span>
+          <span class="event-label">Wedding Reception</span>
+          <span class="event-venue">Mount Lavinia Hotel</span>
+        </article>
+      </div>
+    </section>
+
+    <section class="wedding-art-section reveal" aria-label="Wedding illustration">
+      <figure class="wedding-art-wrap">
+        <img class="wedding-art" src="wedding.jpg" alt="A romantic pencil illustration of a couple holding hands, wearing wedding rings">
+      </figure>
+    </section>
+
+    <section class="countdown-section glass-card reveal">
+      <div class="section-head">
+        <p class="mini-title">The day is approaching</p>
+        <h2>Counting Down to Forever</h2>
+      </div>
+      <div class="countdown-grid">
+        <div class="count-box"><span id="days">0</span><small>Days</small></div>
+        <div class="count-box"><span id="hours">0</span><small>Hours</small></div>
+        <div class="count-box"><span id="minutes">0</span><small>Minutes</small></div>
+        <div class="count-box"><span id="seconds">0</span><small>Seconds</small></div>
+      </div>
+    </section>
+
+    <section class="location-section glass-card reveal">
+      <div class="section-head">
+        <p class="mini-title">Join us</p>
+        <h2>Where to Celebrate</h2>
+      </div>
+      <div class="location-list">
+        <div class="location-item">
+          <p class="location-time">3.00 PM · Wedding Ceremony</p>
+          <h3><b>St. Mary's Church, Dehiwala</b></h3>
+          <a class="gold-btn" href="https://www.google.com/maps/search/?api=1&amp;query=St.+Mary%27s+Church+Dehiwala+Sri+Lanka" target="_blank" rel="noopener noreferrer">View Church Location</a>
+        </div>
+        <div class="location-item">
+          <p class="location-time">6.30 PM onwards · Reception</p>
+          <h3><b>Mount Lavinia Hotel</b></h3>
+          <a class="gold-btn" href="https://www.google.com/maps/search/?api=1&amp;query=Mount+Lavinia+Hotel+Sri+Lanka" target="_blank" rel="noopener noreferrer">View Reception Location</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="rsvp-section glass-card reveal">
+      <div class="section-head">
+        <p class="mini-title">Kindly respond</p>
+        <h2>Your Reply Means So Much</h2>
+      </div>
+      <p class="rsvp-message">
+        We hope you can join us as we celebrate this beautiful beginning.
+        Kindly let either of our family contacts know whether you will be able to attend.
+      </p>
+      <div class="rsvp-contacts">
+        <div class="rsvp-contact">
+          <h3>Oshadhi</h3>
+          <p>077 003 5925</p>
+          <a class="gold-btn rsvp-btn" href="https://wa.me/94770035925?text=We%20would%20like%20to%20respond%20to%20Gimhan%20and%20Oshadhi%27s%20wedding%20invitation." target="_blank" rel="noopener noreferrer">WhatsApp Oshadhi</a>
+        </div>
+        <div class="rsvp-contact">
+          <h3>Gimhan</h3>
+          <p>077 285 6479</p>
+          <a class="gold-btn rsvp-btn" href="https://wa.me/94772856479?text=We%20would%20like%20to%20respond%20to%20Gimhan%20and%20Oshadhi%27s%20wedding%20invitation." target="_blank" rel="noopener noreferrer">WhatsApp Gimhan</a>
+        </div>
+      </div>
+      <p class="rsvp-note">Please contact either Oshadhi or Gimhan through WhatsApp before 15th of January.</p>
+    </section>
+
+    <footer class="footer-note reveal">
+      <div class="footer-ornament" aria-hidden="true">✧</div>
+      <p>With love, we look forward to sharing this unforgettable day with you.</p>
+      <p class="footer-names">Gimhan &amp; Oshadhi</p>
+    </footer>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
